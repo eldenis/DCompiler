@@ -1,0 +1,26 @@
+c:\users\n!to\documents\visual studio 2010\Projects\DCompiler\DCompiler\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\n!to\documents\visual studio 2010\Projects\DCompiler\DCompiler\obj\x86\Debug\MainWindow.baml
+c:\users\n!to\documents\visual studio 2010\Projects\DCompiler\DCompiler\obj\x86\Debug\MainWindow.g.cs
+c:\users\n!to\documents\visual studio 2010\Projects\DCompiler\DCompiler\obj\x86\Debug\App.g.cs
+c:\users\n!to\documents\visual studio 2010\Projects\DCompiler\DCompiler\obj\x86\Debug\DCompiler_MarkupCompile.cache
+c:\users\n!to\documents\visual studio 2010\Projects\DCompiler\DCompiler\obj\x86\Debug\DCompiler.g.resources
+c:\users\n!to\documents\visual studio 2010\Projects\DCompiler\DCompiler\obj\x86\Debug\DCompiler.Properties.Resources.resources
+c:\users\n!to\documents\visual studio 2010\Projects\DCompiler\DCompiler\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\n!to\documents\visual studio 2010\Projects\DCompiler\DCompiler\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\n!to\documents\visual studio 2010\Projects\DCompiler\DCompiler\bin\Debug\DCompiler.exe
+c:\users\n!to\documents\visual studio 2010\Projects\DCompiler\DCompiler\bin\Debug\DCompiler.pdb
+c:\users\n!to\documents\visual studio 2010\Projects\DCompiler\DCompiler\obj\x86\Debug\DCompiler.exe
+c:\users\n!to\documents\visual studio 2010\Projects\DCompiler\DCompiler\obj\x86\Debug\DCompiler.pdb
+C:\Users\usrdev06\Documents\fd\DCompiler\DCompiler\obj\x86\Debug\DCompiler.exe
+C:\Users\usrdev06\Documents\fd\DCompiler\DCompiler\obj\x86\Debug\DCompiler.pdb
+C:\Users\usrdev06\Documents\fd\DCompiler\DCompiler\bin\Debug\DCompiler.exe
+C:\Users\usrdev06\Documents\fd\DCompiler\DCompiler\bin\Debug\DCompiler.pdb
+C:\Users\usrdev06\Documents\fd\DCompiler\DCompiler\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\usrdev06\Documents\fd\DCompiler\DCompiler\obj\x86\Debug\MainWindow.baml
+C:\Users\usrdev06\Documents\fd\DCompiler\DCompiler\obj\x86\Debug\MainWindow.g.cs
+C:\Users\usrdev06\Documents\fd\DCompiler\DCompiler\obj\x86\Debug\App.g.cs
+C:\Users\usrdev06\Documents\fd\DCompiler\DCompiler\obj\x86\Debug\DCompiler_MarkupCompile.cache
+C:\Users\usrdev06\Documents\fd\DCompiler\DCompiler\obj\x86\Debug\DCompiler.g.resources
+C:\Users\usrdev06\Documents\fd\DCompiler\DCompiler\obj\x86\Debug\DCompiler.Properties.Resources.resources
+C:\Users\usrdev06\Documents\fd\DCompiler\DCompiler\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\usrdev06\Documents\fd\DCompiler\DCompiler\obj\x86\Debug\GenerateResource.write.1.tlog

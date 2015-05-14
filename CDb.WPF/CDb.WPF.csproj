@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{41E5F717-97C7-4811-80AA-AC6C57706F5F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CDb.WPF</RootNamespace>
+    <AssemblyName>CDb.WPF</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="dragonz.actb">
+      <HintPath>..\CDb.Utilitarios\Lib\WPFToolkit\dragonz.actb.dll</HintPath>
+    </Reference>
+    <Reference Include="GalaSoft.MvvmLight.Extras.WPF4">
+      <HintPath>..\CDb.Utilitarios\Lib\MVVMLightToolkit\GalaSoft.MvvmLight.Extras.WPF4.dll</HintPath>
+    </Reference>
+    <Reference Include="GalaSoft.MvvmLight.WPF4, Version=3.0.0.30125, Culture=neutral, PublicKeyToken=6fcde8ddc3781e3e, processorArchitecture=MSIL">
+      <HintPath>..\CDb.Utilitarios\Lib\MVVMLightToolkit\GalaSoft.MvvmLight.WPF4.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Windows.Interactivity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\CDb.Utilitarios\Lib\MVVMLightToolkit\System.Windows.Interactivity.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WPF.Themes">
+      <HintPath>Lib\WPF.Themes.dll</HintPath>
+    </Reference>
+    <Reference Include="WPFToolkit.Extended, Version=1.5.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\CDb.Utilitarios\Lib\WPFToolkit\WPFToolkit.Extended.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="NucleoWPF\Otros\ColeccionComando.cs" />
+    <Compile Include="NucleoWPF\Otros\ColeccionKeyGesture.cs" />
+    <Compile Include="NucleoWPF\Otros\ComandoBase.cs" />
+    <Compile Include="NucleoWPF\Otros\DataProviderDeServicio.cs" />
+    <Compile Include="NucleoWPF\Otros\ElementoMenu.cs" />
+    <Compile Include="NucleoWPF\Otros\Enums.cs" />
+    <Compile Include="NucleoWPF\Otros\IContenedor.cs" />
+    <Compile Include="NucleoWPF\Otros\IPoSInfoBox.cs" />
+    <Compile Include="NucleoWPF\Otros\Mensajes.cs" />
+    <Compile Include="NucleoWPF\Otros\MensajesApp.cs" />
+    <Compile Include="NucleoWPF\Otros\RelacionesListaGenerica.cs" />
+    <Compile Include="NucleoWPF\Otros\UsersTemplateSelector.cs" />
+    <Compile Include="NucleoWPF\VMs\IValidationExceptionHandler.cs" />
+    <Compile Include="NucleoWPF\VMs\IVMResultado.cs" />
+    <Compile Include="NucleoWPF\VMs\ValidationExceptionBehavior.cs" />
+    <Compile Include="NucleoWPF\VMs\VMBase.cs" />
+    <Compile Include="NucleoWPF\VMs\VMContenedor.cs" />
+    <Compile Include="NucleoWPF\VMs\VMElemento.cs" />
+    <Compile Include="NucleoWPF\VMs\VMFormulario.cs" />
+    <Compile Include="Util\Behaviors\SelectorSelectedCommandBehavior.cs" />
+    <Compile Include="Util\Behaviors\TeclaEnterTransversal.cs" />
+    <Compile Include="Util\Behaviors\ToggleRowDetailVisibility.cs" />
+    <Compile Include="Util\Booleano.cs" />
+    <Compile Include="Util\Conversores\ConversorAlineacion.cs" />
+    <Compile Include="Util\Conversores\ConversorBool.cs" />
+    <Compile Include="Util\Conversores\ConversorEnum.cs" />
+    <Compile Include="Util\Conversores\ConversorMetodoSeleccion.cs" />
+    <Compile Include="Util\Conversores\ConversorPrefijo.cs" />
+    <Compile Include="Util\Conversores\ConversorPresentacion.cs" />
+    <Compile Include="Util\Conversores\ConversorTexto.cs" />
+    <Compile Include="Util\Conversores\ConversorVisibility.cs" />
+    <Compile Include="Util\Conversores\ConversorVisibilityNegado.cs" />
+    <Compile Include="Util\Conversores\ObjectStateAVisibility.cs" />
+    <Compile Include="Util\DTS\DTSPoSMarcoInferior.cs" />
+    <Compile Include="Util\EjecutorAutenticado.cs" />
+    <Compile Include="Util\EjecutorConRetraso.cs" />
+    <Compile Include="Util\EnumsWPF.cs" />
+    <Compile Include="Util\Extensiones.cs" />
+    <Compile Include="Util\InstaladorConversor.cs" />
+    <Compile Include="Util\ManejadorCache.cs" />
+    <Compile Include="Util\ManejadorError.cs" />
+    <Compile Include="Util\OpcionesListaGenerica.cs" />
+    <Compile Include="Util\Propiedades\ManejadorFoco.cs" />
+    <Compile Include="VistaModelos\VMAnalisisSintactico.cs" />
+    <Compile Include="VistaModelos\IVMCompilacion.cs" />
+    <Compile Include="VistaModelos\VMAnalisisLexico.cs" />
+    <Compile Include="VistaModelos\VMCompilacionBase.cs" />
+    <Compile Include="VistaModelos\VMPrincipal.cs" />
+    <Compile Include="Vistas\VAnalisisLexico.xaml.cs">
+      <DependentUpon>VAnalisisLexico.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\VAnalisisSintactico.xaml.cs">
+      <DependentUpon>VAnalisisSintactico.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\VArbol.xaml.cs">
+      <DependentUpon>VArbol.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Recursos\RecursoBase.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vistas\VAnalisisLexico.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vistas\VAnalisisSintactico.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vistas\VArbol.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vistas\VPrincipal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Vistas\MainWindow.xaml.cs">
+      <DependentUpon>VPrincipal.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CDb.Datos\CDb.Datos.csproj">
+      <Project>{7236AFC4-A388-4E91-A8CD-E13D0100A934}</Project>
+      <Name>CDb.Datos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CDb.Utilitarios\CDb.Utilitarios.csproj">
+      <Project>{BEE37743-87B4-4AB3-B5B8-69E28683F67D}</Project>
+      <Name>CDb.Utilitarios</Name>
+      <Private>True</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </ProjectReference>
+    <ProjectReference Include="..\CDb\CDb.csproj">
+      <Project>{991D85C7-9884-4435-9661-245A3458BBB6}</Project>
+      <Name>DbC</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Lib\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

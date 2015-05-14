@@ -1,0 +1,16 @@
+$Programa que calcula un valor y si el valor calculado es igual al valor minimo de 40, le asigna al valor calculado el valor de 8 elevado al cuadrado$
+Prg Programa de compiladores
+Inip
+
+Vent ValorEntero
+Vent ValorMinimo
+
+IEX
+ValorEntero = 5*8
+ValorMinimo = 40
+FEX
+
+si ValorEntero = ValorMinimo ent
+ValorEntero = 8^2
+fsi
+Finp

@@ -1,0 +1,15 @@
+C:\Users\usrdev06\Documents\fd\DCompiler\Presentacion\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\usrdev06\Documents\fd\DCompiler\Presentacion\obj\x86\Debug\Vistas\VPrincipal.baml
+C:\Users\usrdev06\Documents\fd\DCompiler\Presentacion\obj\x86\Debug\Vistas\VPrincipal.g.cs
+C:\Users\usrdev06\Documents\fd\DCompiler\Presentacion\obj\x86\Debug\App.g.cs
+C:\Users\usrdev06\Documents\fd\DCompiler\Presentacion\obj\x86\Debug\Presentacion_MarkupCompile.cache
+C:\Users\usrdev06\Documents\fd\DCompiler\Presentacion\obj\x86\Debug\Presentacion.g.resources
+C:\Users\usrdev06\Documents\fd\DCompiler\Presentacion\obj\x86\Debug\Presentacion.Properties.Resources.resources
+C:\Users\usrdev06\Documents\fd\DCompiler\Presentacion\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\usrdev06\Documents\fd\DCompiler\Presentacion\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\usrdev06\Documents\fd\DCompiler\Presentacion\obj\x86\Debug\Presentacion.exe
+C:\Users\usrdev06\Documents\fd\DCompiler\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\usrdev06\Documents\fd\DCompiler\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\usrdev06\Documents\fd\DCompiler\Presentacion\bin\Debug\DCompiler.dll
+C:\Users\usrdev06\Documents\fd\DCompiler\Presentacion\bin\Debug\DCompiler.pdb
+C:\Users\usrdev06\Documents\fd\DCompiler\Presentacion\obj\x86\Debug\Presentacion.pdb

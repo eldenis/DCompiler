@@ -1,0 +1,11 @@
+$Programa modelo para prueba de Compilador Db$
+            Prg CompiladorDbPrueba
+            Inip
+                Vent A
+                Vent B
+                Vent C
+                Vent D
+                IEX
+                   {[(A+B)]}+8=[(B+C)/D]*C/8/7/9
+                FEX
+            Finp

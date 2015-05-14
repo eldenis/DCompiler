@@ -1,0 +1,16 @@
+$Programa modelo para prueba de Compilador Db$
+            Prg CompiladorDbPrueba
+            Inip
+                Vent A
+                Vent U
+                Vent F
+                Vent W
+                Vent C
+                Vent J
+                Vent H
+                Vent K
+                Vent P
+                IEX
+                   (U+2)-{F+[W/(A-C)+2]*J}*H=M/K^(F+2)*P          
+                FEX
+            Finp

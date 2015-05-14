@@ -1,0 +1,26 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:modelos="clr-namespace:CDb.WPF.VistaModelos"
+                    xmlns:vistas="clr-namespace:CDb.WPF.Vistas"
+                    xmlns:util="clr-namespace:WPF.Cliente.Util"
+                    xmlns:compi="clr-namespace:CDb.Compilacion;assembly=CDb"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <DataTemplate DataType="{x:Type modelos:VMAnalisisLexico}">
+        <vistas:VAnalisisLexico/>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type modelos:VMAnalisisSintactico}">
+        <vistas:VAnalisisSintactico/>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type compi:NodoRaiz}" x:Key="vistaArbol">
+        <vistas:VArbol/>
+    </DataTemplate>
+
+    <util:ConversorVisibility x:Key="conversorVisibility"/>
+    <util:ConversorBool x:Key="conversorBool"/>
+
+
+   
+
+</ResourceDictionary>
