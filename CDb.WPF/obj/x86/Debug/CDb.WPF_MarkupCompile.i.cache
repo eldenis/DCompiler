@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\dns\compiladores\DCompiler\CDb.WPF\obj\x86\Debug\
+C:\dev\DCompiler\CDb.WPF\obj\x86\Debug\
 CDb.WPF
 none
 false
 DEBUG;TRACE
-D:\dns\compiladores\DCompiler\CDb.WPF\App.xaml
+C:\dev\DCompiler\CDb.WPF\App.xaml
 566345713
 
-571661565518
-23-9305650
+571806074860
+28-1237913599
 Recursos\RecursoBase.xaml;Vistas\VAnalisisLexico.xaml;Vistas\VAnalisisSintactico.xaml;Vistas\VArbol.xaml;Vistas\VPrincipal.xaml;
 
-True
+False
 
